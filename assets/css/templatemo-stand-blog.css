@@ -1,9 +1,9 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  overflow-x: hidden;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 /* Color de letras texto */
 p {
@@ -79,8 +79,8 @@ h1,h2,h3,h4,h5,h6 {
 	letter-spacing: 0.5px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;    /* centra horizontalmente */
-	justify-content: center; /* centra verticalmente */
+	align-items: center;    
+	justify-content: center; 
 	text-align: center;   
 }
 
@@ -331,10 +331,10 @@ header .navbar {
 	color: #deebe0;
 }
 .owl-banner .item img {
-    width: 100%;        /* ocupa todo el ancho del contenedor */
-    height: 500px;      /* altura uniforme para todos los slides */
-    object-fit: cover;  /* recorta centrando la imagen, sin deformarla */
-    display: block;     /* elimina posibles espacios en blanco */
+    width: 100%;        
+    height: 500px;      
+    object-fit: cover;  
+    display: block;   
 }
 .owl-banner .owl-nav {
 	position: absolute;
@@ -383,8 +383,8 @@ header .navbar {
 
 	display: flex;
 	flex-direction: column;
-	align-items: center;    /* centra horizontalmente */
-	justify-content: center; /* centra verticalmente */
+	align-items: center;    
+	justify-content: center; 
 	text-align: center; 
 }
 
@@ -542,11 +542,11 @@ header .navbar {
 
 /* Ajuste de imágenes de blog */
 .blog-posts .blog-thumb img {
-    width: 100%;        /* ocupa todo el ancho del contenedor */
-    height: 500px;      /* altura uniforme para todas las imágenes */
-    object-fit: contain; /* mantiene la imagen completa, sin recortar */
-    display: block;     /* elimina espacios en blanco debajo de la imagen */
-    background-color: #f8f5f5; /* opcional: fondo gris si la imagen no llena el contenedor */
+    width: 100%;        
+    height: 500px;   
+    object-fit: contain;
+    display: block;     
+    background-color: #f8f5f5; 
 }
 
 
@@ -981,102 +981,102 @@ footer p a:hover {
 
 /* About Us */
 .about-us {
-  margin-top: 100px;
-  text-align: center;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 20px;
+    margin-top: 100px;
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
 }
 
 .about-us .row {
   align-items: center; /* centra verticalmente imagen y texto */
   margin-bottom: 80px; /* separación clara entre pueblos */
-  text-align: left;
+    text-align: left;
 }
 
 .about-us img {
-  width: 100%;
-  height: 300px;
+    width: 100%;
+    height: 300px;
   object-fit: cover; /* imagen uniforme sin deformar */
-  border-radius: 12px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
 }
 
 .about-us h3 {
-  color: #04830f;
-  font-weight: 800;
-  font-size: 28px;
-  margin-bottom: 10px;
+    color: #04830f;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 .about-us h5 {
-  color: #0c4d08;
-  font-weight: 700;
-  font-size: 18px;
-  margin-top: 25px;
-  margin-bottom: 10px;
+    color: #0c4d08;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 .about-us p {
-  color: #444;
-  font-size: 17px;
-  line-height: 1.7;
-  margin-bottom: 15px;
+    color: #444;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 15px;
 }
 
 .about-us ul {
-  margin-top: 10px;
-  margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .about-us ul li {
-  color: #333;
-  margin-bottom: 6px;
-  line-height: 1.6;
-  list-style-type: disc;
+    color: #333;
+    margin-bottom: 6px;
+    line-height: 1.6;
+    list-style-type: disc;
 }
 
 /* ---- texto general superior ---- */
 .about-us .row:first-child p {
-  text-align: justify;
-  font-size: 17px;
-  color: #333;
-  margin-bottom: 20px;
+    text-align: justify;
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 .about-us strong {
-  color: #045bb3;
+    color: #045bb3;
 }
 
 /* ---- responsive ---- */
 @media (max-width: 992px) {
-  .about-us .row {
+.about-us .row {
     text-align: center;
-  }
+    }
 
-  .about-us img {
+.about-us img {
     height: 250px;
     margin-bottom: 25px;
-  }
+    }
 
-  .about-us .col-lg-8 {
+.about-us .col-lg-8 {
     text-align: left;
-  }
+    }
 }
 
 @media (max-width: 576px) {
-  .about-us img {
+.about-us img {
     height: 200px;
-  }
+    }
 
-  .about-us h3 {
+.about-us h3 {
     font-size: 24px;
-  }
+    }
 
-  .about-us h5 {
+.about-us h5 {
     font-size: 16px;
-  }
+    }
 }
 
 
@@ -1185,29 +1185,76 @@ footer p a:hover {
 /* Header transparente/sólido */
 header.solid-header {
   background-color: #198510; /* color sólido original */
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 
 header.transparent-header {
   background-color: rgba(3, 102, 28, 0.37); /* transparente parcial */
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: none;
 }
 
-/* Opcional: cambiar color del texto del navbar según transparencia */
 header.transparent-header .navbar .navbar-nav a.nav-link {
-  color: #fff !important;
-}
+    color: #fff !important;
+} 
 
 header.transparent-header .navbar .navbar-brand h2 {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 header.solid-header .navbar .navbar-nav a.nav-link {
-  color: #ffffff !important;
+    color: #ffffff !important;
 }
 
 header.solid-header .navbar .navbar-brand h2 {
-  color: #f5f5f5 !important;
+    color: #f5f5f5 !important;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.whatsapp-float img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float img:hover {
+    transform: scale(1.1);
+}
+
+.map-container {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f8f9fa;
+}
+
+.map-container h2 {
+    font-size: 1.8rem;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.map-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 900px;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
 }
